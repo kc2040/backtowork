@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Image, Menu } from 'semantic-ui-react';
 import styles from '../context/constants';
+import { IMG_FOLDER_PUBLIC } from '../context/consts';
 
 export default function NavBar() {
   const changeTitle = () => {
@@ -27,7 +28,11 @@ export default function NavBar() {
       style={{ boxShadow: 'none', borderWidth: '0' }}
     >
       <Menu.Item as={NavLink} exact to='/'>
-        <Image size='small' src='rt-logo-white.png' alt='rt-logo-white' />
+        <Image
+          size='small'
+          src={IMG_FOLDER_PUBLIC + 'rt-logo-white.png'}
+          alt='rt-logo-white'
+        />
       </Menu.Item>
       <Menu.Item style={styles.lightGreyFont}>
         <h5 className='lightGreyFont'> {changeTitle()}</h5>

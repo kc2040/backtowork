@@ -1,5 +1,8 @@
 import React from 'react';
 import { Button, Container, Icon, Image, Message } from 'semantic-ui-react';
+import { IMG_FOLDER_PUBLIC } from './context/consts';
+
+const url = 'https://raw.githubusercontent.com/kc2040/rtw/main/public/';
 
 export default function HomePage({ history }) {
   const background = { backgroundSize: 'cover' };
@@ -17,7 +20,7 @@ export default function HomePage({ history }) {
       <Image
         style={background}
         responsive='true'
-        src='businessoffice.png'
+        src={IMG_FOLDER_PUBLIC + 'businessoffice.png'}
         width='100%'
         height='100%'
       ></Image>
@@ -25,7 +28,7 @@ export default function HomePage({ history }) {
       <Button size='small' disabled basic>
         <Image
           size='small'
-          src='rt-logo-dark.png'
+          src={IMG_FOLDER_PUBLIC + 'rt-logo-dark.png'}
           alt='rt-logo-dark'
           style={{
             position: 'absolute',

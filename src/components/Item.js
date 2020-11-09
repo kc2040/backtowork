@@ -2,6 +2,8 @@ import React, { useContext, useReducer, useState } from 'react';
 import { Button, Image, } from 'semantic-ui-react';
 import cartReducer from '../store/cartReducer';
 import CartContext from '../context/cartContext';
+import { IMG_FOLDER_ASSETS } from '../context/consts';
+
 
 
 export default function Item({
@@ -31,7 +33,7 @@ export default function Item({
       >
         <Image
           responsive='true'
-          src={product.img}
+          src={IMG_FOLDER_ASSETS + product.img}
           circular
           alt='my image'
           width='155'

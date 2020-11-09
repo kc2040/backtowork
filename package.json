@@ -1,6 +1,5 @@
 {
-  "homepage": "https://kc2040.github.io/rtw/",
-  "name": "backtowork",
+   "name": "backtowork",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
