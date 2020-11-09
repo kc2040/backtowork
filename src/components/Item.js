@@ -2,7 +2,7 @@ import React, { useContext, useReducer, useState } from 'react';
 import { Button, Image, } from 'semantic-ui-react';
 import cartReducer from '../store/cartReducer';
 import CartContext from '../context/cartContext';
-import { IMG_FOLDER_ASSETS } from '../context/consts';
+import { ASSETS_FOLDER  } from '../context/consts';
 
 
 
@@ -16,7 +16,7 @@ export default function Item({
   const [cart, setCart] = useReducer(cartReducer, []);
   const { state, dispatch } = useContext(CartContext);
 
-  
+  const imgFolder = ASSETS_FOLDER;
 
   const handleToggleDELETE = (product) => {
     dispatch({ type: 'handleToggle', payload: product });
@@ -33,7 +33,7 @@ export default function Item({
       >
         <Image
           responsive='true'
-          src={IMG_FOLDER_ASSETS + product.img}
+          src={imgFolder + product.img}
           circular
           alt='my image'
           width='155'

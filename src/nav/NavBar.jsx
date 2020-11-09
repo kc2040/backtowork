@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Image, Menu } from 'semantic-ui-react';
+import { Image, List, Menu } from 'semantic-ui-react';
 import styles from '../context/constants';
-import { IMG_FOLDER_PUBLIC } from '../context/consts';
+import { PUBLIC_FOLDER } from '../context/consts';
+import Footer from './Footer';
 
 export default function NavBar() {
+  const imgURL = PUBLIC_FOLDER;
   const changeTitle = () => {
     switch (window.location.pathname) {
       case '/thankyou':
@@ -30,7 +32,7 @@ export default function NavBar() {
       <Menu.Item as={NavLink} exact to='/'>
         <Image
           size='small'
-          src={IMG_FOLDER_PUBLIC + 'rt-logo-white.png'}
+          src={imgURL + 'rt-logo-white.png'}
           alt='rt-logo-white'
         />
       </Menu.Item>
@@ -38,6 +40,7 @@ export default function NavBar() {
         <h5 className='lightGreyFont'> {changeTitle()}</h5>
       </Menu.Item>
       <Menu.Item></Menu.Item>
+      <Footer></Footer>
     </Menu>
   );
 }

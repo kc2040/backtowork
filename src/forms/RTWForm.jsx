@@ -141,7 +141,6 @@ export default function RTWForm() {
                       name='cell'
                       onChange={handleChange}
                       value={values.cell || ''}
-                      required
                     />
                   </div>
                   {errors.cell && <p style={styles.redText}>{errors.cell}</p>}

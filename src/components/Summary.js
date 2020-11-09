@@ -4,12 +4,13 @@ import { Button,  Divider,  Grid,  Image,  Label, Message, Segment } from 'seman
 import { Link } from 'react-router-dom';
 import Moment from 'moment';
 import styles from '../context/constants'
+import { ASSETS_FOLDER  } from '../context/consts';
 
 
 
 export default function Summary() {
    
-
+    const imgURL = ASSETS_FOLDER;
     const { state, dispatch } = useContext(CartContext);   
 
     function handleToggle(product) {
@@ -95,7 +96,7 @@ export default function Summary() {
                                 <Grid.Column width={4}>
                                     <Image
                                         responsive='true'
-                                        src={product.img}
+                                        src={imgURL + product.img}
                                         circular
                                         alt='my image'
                                         width='40'

@@ -1,13 +1,11 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
 import Moment from 'moment';
 
 export default function Footer() {
   return (
     <Menu
-      color='grey'
-      inverted
+      color='#dcdcdc'
       fluid
       widths={6}
       fixed='bottom'

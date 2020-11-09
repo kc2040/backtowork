@@ -15,9 +15,10 @@ export default function validate(values) {
   } else if (values.lname.length < 2) {
     errors.fname = 'last name must be 2 or more characters';
   }
-  if (!values.cell) {
+  /* if (!values.cell) {
     errors.cell = 'cell number is required';
-  } else if (!/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(values.cell)) {
+  } else */
+    if (values.cell & !/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(values.cell)) {
     errors.cell = 'phone number is invalid';
   }
 
