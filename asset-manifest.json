@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/kc2040/backtowork/static/css/main.432e0d57.chunk.css",
+    "main.js": "/kc2040/backtowork/static/js/main.45cbded5.chunk.js",
+    "main.js.map": "/kc2040/backtowork/static/js/main.45cbded5.chunk.js.map",
+    "runtime-main.js": "/kc2040/backtowork/static/js/runtime-main.a57c8927.js",
+    "runtime-main.js.map": "/kc2040/backtowork/static/js/runtime-main.a57c8927.js.map",
+    "static/css/2.afbd11c7.chunk.css": "/kc2040/backtowork/static/css/2.afbd11c7.chunk.css",
+    "static/js/2.3f96df74.chunk.js": "/kc2040/backtowork/static/js/2.3f96df74.chunk.js",
+    "static/js/2.3f96df74.chunk.js.map": "/kc2040/backtowork/static/js/2.3f96df74.chunk.js.map",
+    "index.html": "/kc2040/backtowork/index.html",
+    "precache-manifest.3c1126ec0ffc64998b5e92d4929b3152.js": "/kc2040/backtowork/precache-manifest.3c1126ec0ffc64998b5e92d4929b3152.js",
+    "service-worker.js": "/kc2040/backtowork/service-worker.js",
+    "static/css/2.afbd11c7.chunk.css.map": "/kc2040/backtowork/static/css/2.afbd11c7.chunk.css.map",
+    "static/css/main.432e0d57.chunk.css.map": "/kc2040/backtowork/static/css/main.432e0d57.chunk.css.map",
+    "static/js/2.3f96df74.chunk.js.LICENSE.txt": "/kc2040/backtowork/static/js/2.3f96df74.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/kc2040/backtowork/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a57c8927.js",
+    "static/css/2.afbd11c7.chunk.css",
+    "static/js/2.3f96df74.chunk.js",
+    "static/css/main.432e0d57.chunk.css",
+    "static/js/main.45cbded5.chunk.js"
+  ]
+}
