@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/backtowork/static/css/main.432e0d57.chunk.css",
-    "main.js": "/backtowork/static/js/main.1ff3db1a.chunk.js",
-    "main.js.map": "/backtowork/static/js/main.1ff3db1a.chunk.js.map",
+    "main.js": "/backtowork/static/js/main.a4f939e1.chunk.js",
+    "main.js.map": "/backtowork/static/js/main.a4f939e1.chunk.js.map",
     "runtime-main.js": "/backtowork/static/js/runtime-main.0d62742c.js",
     "runtime-main.js.map": "/backtowork/static/js/runtime-main.0d62742c.js.map",
     "static/css/2.4f358679.chunk.css": "/backtowork/static/css/2.4f358679.chunk.css",
     "static/js/2.8f31d563.chunk.js": "/backtowork/static/js/2.8f31d563.chunk.js",
     "static/js/2.8f31d563.chunk.js.map": "/backtowork/static/js/2.8f31d563.chunk.js.map",
     "index.html": "/backtowork/index.html",
-    "precache-manifest.21c52a0bc275647eb457a82e8c65bf77.js": "/backtowork/precache-manifest.21c52a0bc275647eb457a82e8c65bf77.js",
+    "precache-manifest.85a102c656c35bd6357c26731a718574.js": "/backtowork/precache-manifest.85a102c656c35bd6357c26731a718574.js",
     "service-worker.js": "/backtowork/service-worker.js",
     "static/css/2.4f358679.chunk.css.map": "/backtowork/static/css/2.4f358679.chunk.css.map",
     "static/css/main.432e0d57.chunk.css.map": "/backtowork/static/css/main.432e0d57.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.4f358679.chunk.css",
     "static/js/2.8f31d563.chunk.js",
     "static/css/main.432e0d57.chunk.css",
-    "static/js/main.1ff3db1a.chunk.js"
+    "static/js/main.a4f939e1.chunk.js"
   ]
 }
